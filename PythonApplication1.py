@@ -1,5 +1,7 @@
 FILE_IN="ExSort.IN"
 FILE_OUT="ExSortXX.OUT"
+
+#TODO: Doi sang so luong phan tu float trong file, 4 la de test
 double_per_file=4;
 
 #Dem so file
