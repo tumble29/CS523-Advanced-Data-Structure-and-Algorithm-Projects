@@ -1,5 +1,3 @@
-import sys
-
 FILE_IN="ExSort.IN"
 FILE_OUT="ExSortXX.OUT"
 double_per_file=4;
