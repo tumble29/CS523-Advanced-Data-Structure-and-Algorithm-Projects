@@ -4,7 +4,7 @@ FILE_IN = "ExSort.IN"
 FILE_OUT = "ExSortXX.OUT"
 
 # TODO: Doi sang so luong phan tu float trong file
-double_per_file = 5
+double_per_file = 62499840
 
 # Dem so file
 file_counter = 1
