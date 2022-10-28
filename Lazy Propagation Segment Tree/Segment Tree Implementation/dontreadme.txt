@@ -1,0 +1,4 @@
+-Bổ sung đánh giá độ phức tạp để chỉ rõ vấn đề có nên đánh đổi bộ nhớ để lấy thời gian chạy
+-Nên ghép cây lazy vào chung với cây segment để dễ quản lý
+-Kích thước cây không nhất thiết là 4N
+-Thiếu ví dụ thực tế
