@@ -87,9 +87,28 @@ public:
 	}
 };
 
+
 int main() {
-	vector<int>a = { 1,2,3,4 };
+	vector<int> arr;
 	LazySegmentTree lst;
-	lst.construct_tree(a);
-	lst.update_range(0, 2, 2);
+	int n; cin >> n;
+	while (n--) {
+		int t; cin >> t;
+		arr.push_back(t);
+	}
+	lst.construct_tree(arr);
+	cin >> n;
+	while (n == 0 || n == 1) {
+		if (n) {
+			int a, b, u;
+			cin >> a >> b >> u;
+			lst.update_range(a, b, u);
+		}
+		else {
+			int a, b;
+			cin >> a >> b;
+			cout<<lst.get_min(a, b)<<endl;
+		}
+		cin >> n;
+	}
 }
